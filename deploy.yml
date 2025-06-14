@@ -19,16 +19,16 @@ Parameters:
     Default: "false"
   AllowedSignUpEmailDomains:
     Type: String
-    Default: "[]"
+    Default: '["simplicity.net.au", "skynetresearch.tech", "hugo.broker"]'
   BedrockRegion:
     Type: String
-    Default: "us-east-1"
+    Default: "ap-southeast-2" # Default to Sydney, change as needed
   CdkJsonOverride:
     Type: String
     Default: "{}"
   RepoUrl:
     Type: String
-    Default: "https://github.com/aws-samples/bedrock-chat.git"
+    Default: "https://github.com/Skynet-Research-Technologies/bedrock-chat.git"
   Version:
     Type: String
     Default: "v3"
